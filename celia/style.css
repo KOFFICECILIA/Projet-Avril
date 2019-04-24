@@ -1,0 +1,134 @@
+body{
+    background-color: rgb(228, 241, 255);
+}
+.barre-gauche, .barre-droite{
+    background-color: white;
+    width: 100%;
+}
+.barre-gauche{
+	border: 1px solid gray;
+    position: fixed;
+    text-align: center;
+    min-height: 100%;
+    font-size: 130%;
+    padding-top: 13%;
+    text-shadow: 0.5px 0.5px 0.5px white;
+    background-color: #222a58;
+   
+}
+.barre-gauche>a {
+    margin-top: 10%
+}
+.gauche{
+    color: yellow;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 1px 1px 1px rgb(252, 252, 252);
+    font-size: 130%;
+}
+.barre-droite{
+	border: 1px solid gray;
+	min-height:9vh;
+    max-height: 5%;
+    height: 9vh;
+	background-color: #222a58;
+}
+.bienvenue{
+    font-size: 220%;
+    color:yellow;
+    text-shadow: 1px 1px 1px rgb(160, 17, 226);
+}
+a:hover{
+   text-decoration: none;
+   color: aquamarine;
+   transform: rotate(10deg)
+}
+.barre-droite, li{
+	text-decoration: none;
+	display: inline;
+	color: rgb(252, 249, 213);
+    padding-left: 2%;
+    margin-right: 8%;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	/* padding-top: 1%; */
+}
+.logo{
+    color: yellow;
+    font-size: 130%;
+    margin-left: 15%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 1px 1px 1px rgb(252, 252, 252);
+}
+.b1{
+    background-image: url(plan.jpg);
+    border: 1px solid black
+}
+.b2{
+    background-image: url(archit.jpeg);
+    border: 1px solid black
+}
+.b3{
+    background-image: url(materiaux.jpg);
+    background-size: cover;
+    border: 1px solid black;
+
+}
+.img{
+    background-image: url(maison.jpg);
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    padding-top:2%
+}
+.h-min{
+    min-height: 15vh;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgb(160, 17, 226);
+    color: rgb(160, 17, 226);
+    font-weight: bold
+}
+h5{
+    margin-top: 6%;
+    text-align: center;
+    font-weight: bold;
+}
+h6{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+h3{
+    text-align: center;
+    background-color: rgb(246, 247, 243);
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgb(160, 17, 226);
+}
+h4{
+    margin-top: 10%;
+    text-align: center;
+    background-color: rgb(238, 250, 170);
+    font-weight: bold;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 3px 3px 3px black;
+}
+p{
+    text-align: center;
+    font-size: 120%;
+}
+.h-carte{
+    min-height: 70vh;
+    margin-left: 15%;
+}
+footer{
+	background-color:  #222a58;
+	border: 1px solid gray;
+    height: 20vh;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 150%;
+}
+.contact:hover{
+
+}

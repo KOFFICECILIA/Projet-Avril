@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(228, 241, 255);
+}
+.barre-gauche, .barre-droite{
+    background-color: white;
+    width: 100%;
+}
+.barre-gauche{
+	border: 1px solid gray;
+    position: fixed;
+    text-align: center;
+    min-height: 100%;
+    font-size: 130%;
+    padding-top: 13%;
+    text-shadow: 0.5px 0.5px 0.5px white;
+    background-color: #222a58;
+   
+}
+.barre-gauche>a {
+    margin-top: 10%
+}
+.gauche{
+    color: yellow;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 1px 1px 1px rgb(252, 252, 252);
+    font-size: 130%;
+}
+.barre-droite{
+	border: 1px solid gray;
+	min-height:9vh;
+    max-height: 5%;
+    height: 9vh;
+	background-color: #222a58;
+}
+a:hover{
+    text-decoration: none;
+    color: aquamarine;
+    transform: rotate(10deg)
+ }
+ .barre-droite, li{
+     text-decoration: none;
+     display: inline;
+     color: rgb(252, 249, 213);
+     padding-left: 2%;
+     margin-right: 8%;
+     font-size: 30px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .logo{
+     color: yellow;
+     font-size: 130%;
+     margin-left: 15%;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     text-shadow: 1px 1px 1px rgb(252, 252, 252);
+ }
+ .plan{
+    min-height: 8vh;
+    text-align: center;
+    text-shadow: 1px 1px 1px white;
+    font-weight: bold;
+    
+ }
+ .card{
+    margin-left: 4%;
+    height: 140vh;
+    margin-top: 6vh;
+ }
+ h1{
+    margin-top: 10vh;
+     text-align: center;
+     text-transform: uppercase;
+     font-weight: bold;
+     text-shadow: 1px 1px 1px white;
+     
+ }
